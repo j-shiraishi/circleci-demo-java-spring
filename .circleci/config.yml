@@ -49,7 +49,7 @@ jobs:
           name: Run tests in parallel
           # Use "./gradlew test" instead if tests are not run in parallel
           command: |
-            cd src/test/java
+#            cd src/test/java
             ./gradlew test
 #            # Get list of classnames of tests that should run on this node
 #            CLASSNAMES=$(circleci tests glob "**/*.java" \
